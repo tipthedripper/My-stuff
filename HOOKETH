@@ -1,6 +1,6 @@
 print("list")
 local bannedUsers = {
-    343052486, -- Add banned User IDs here
+    1981272536, -- Add banned User IDs here
 }
 
 
