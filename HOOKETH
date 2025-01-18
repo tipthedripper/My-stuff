@@ -1,8 +1,10 @@
 print("other thing")
 
 local bannedUsers = {
-    1981272536, -- Example User ID
-    343052486,
+    3691566993, -- Example User ID
+    2698701180,
+    5570718364,
+
 }
 
 -- Function to check if a user is banned
