@@ -17,6 +17,7 @@ print("Banned Users List:", table.concat(bannedUsers, ", "))
 
 -- Check if the user is banned
 if isUserBanned(userId) then
+setclipboard("https://discord.com/invite/Q2c388fGAq") 
     game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal from discord copied to your clipboard") 
     print("You are banned from using this script.")
 else
