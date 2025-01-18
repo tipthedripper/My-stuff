@@ -1,5 +1,5 @@
 --- i swear if this gets cracked
-
+print("ran")
 
 if _G.PasswordTextBox == "niggamusprime" 
 then _G.EnteredKey = true
