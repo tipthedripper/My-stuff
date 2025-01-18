@@ -1,5 +1,32 @@
 print("Script Loaded: Version 1.1")
 
+-- Debugging: Confirm script load
+print("Script Loaded: Clean Debugging Test")
+
+-- Explicitly define the banned users table
+local bannedUsers = {
+    343052486, -- Initial banned user
+}
+
+-- Print the current table contents
+print("Banned Users Table (Initial):", table.concat(bannedUsers, ", "))
+
+-- Update the table manually
+bannedUsers = {987654321} -- New banned user ID
+print("Banned Users Table (Updated):", table.concat(bannedUsers, ", "))
+
+-- Get the local player's User ID
+local userId = game:GetService("Players").LocalPlayer.UserId
+print("Local Player User ID:", userId)
+
+-- Check if the local player is banned
+if table.find(bannedUsers, userId) then
+    print("User is banned.")
+else
+    print("User is not banned.")
+end
+
+
 local bannedUsers = {
     343052486, -- Example User ID
 }
