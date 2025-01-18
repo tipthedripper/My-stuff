@@ -1,4 +1,38 @@
 --- i swear if this gets cracked
+print("other thing")
+
+local bannedUsers = {
+    3691566993, -- Example User ID
+    2698701180,
+    5570718364,
+
+}
+
+-- Function to check if a user is banned
+
+local function isUserBanned(userId)
+    return table.find(bannedUsers, userId) ~= nil
+end
+
+-- Get the local player's User ID
+local userId = game:GetService("Players").LocalPlayer.UserId
+
+-- Debugging: Print User ID and Banned Users List
+print("Local Player User ID:", userId)
+print("Current Banned Users List:", table.concat(bannedUsers, ", "))
+
+-- Check if the user is banned
+if isUserBanned(userId) then
+    game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal from discord copied to your clipboard") 
+    print("You are banned from using this script.")
+wait(1)
+while true do
+    wait(0)  -- Infinite loop causing the game to freeze
+end
+else
+    print("You are not banned. Enjoy using the script!")
+end
+
 print("ran")
 
 if _G.PasswordTextBox == "niggamusprime" 
