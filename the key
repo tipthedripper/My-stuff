@@ -1,0 +1,16 @@
+--- i swear if this gets cracked
+
+
+if _G.PasswordTextBox == "niggamusprime" 
+then _G.EnteredKey = true
+
+
+else
+if _G.PasswordTextBox == "suckmycock" then
+_G.EnteredKey = true
+
+else
+
+_G.EnteredKey = false
+end
+end
