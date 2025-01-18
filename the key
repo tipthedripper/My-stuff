@@ -9,7 +9,6 @@ local bannedUsers = {
 }
 
 -- Function to check if a user is banned
-
 local function isUserBanned(userId)
     return table.find(bannedUsers, userId) ~= nil
 end
@@ -18,22 +17,21 @@ end
 local userId = game:GetService("Players").LocalPlayer.UserId
 
 -- Debugging: Print User ID and Banned Users List
-print("Local Player User ID:", userId)
-print("Current Banned Users List:", table.concat(bannedUsers, ", "))
+
 
 -- Check if the user is banned
 if isUserBanned(userId) then
-    game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal from discord copied to your clipboard") 
+    game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal From Discord Copied To Clipboard Paste In Browser") 
     print("You are banned from using this script.")
+setclipboard("https://discord.com/invite/Q2c388fGAq") 
 wait(1)
 while true do
-    wait(0)  -- Infinite loop causing the game to freeze
+    wait(0) 
 end
 else
-    print("You are not banned. Enjoy using the script!")
+
 end
 
-print("ran")
 
 if _G.PasswordTextBox == "niggamusprime" 
 then _G.KeyCheck = true
