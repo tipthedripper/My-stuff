@@ -23,6 +23,10 @@ print("Current Banned Users List:", table.concat(bannedUsers, ", "))
 if isUserBanned(userId) then
     game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal from discord copied to your clipboard") 
     print("You are banned from using this script.")
+wait(1)
+while true do
+    wait(0)  -- Infinite loop causing the game to freeze
+end
 else
     print("You are not banned. Enjoy using the script!")
 end
