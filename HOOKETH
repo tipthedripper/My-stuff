@@ -1,4 +1,4 @@
-
+print("list")
 local bannedUsers = {
     1981272536, -- 
     87654321, -- 
