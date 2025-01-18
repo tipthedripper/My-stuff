@@ -1,25 +1,2 @@
 print("other thing")
 
-local bannedUsers = {
-    1981272536, -- Example User ID
-}
-
--- Function to check if a user is banned
-local function isUserBanned(userId)
-    return table.find(bannedUsers, userId) ~= nil
-end
-
--- Get the local player's User ID
-local userId = game:GetService("Players").LocalPlayer.UserId
-
--- Debugging: Print User ID and Banned Users List
-print("Local Player User ID:", userId)
-print("Current Banned Users List:", table.concat(bannedUsers, ", "))
-
--- Check if the user is banned
-if isUserBanned(userId) then
-    game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal from discord copied to your clipboard") 
-    print("You are banned from using this script.")
-else
-    print("You are not banned. Enjoy using the script!")
-end
