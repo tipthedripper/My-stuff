@@ -33,7 +33,7 @@ else
 end
 
 
-if _G.PasswordTextBox == "niggamusprime" 
+if _G.PasswordTextBox == "revisback" 
 then _G.KeyCheck = true
 
 
