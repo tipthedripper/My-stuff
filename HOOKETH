@@ -20,7 +20,7 @@ local userId = game:GetService("Players").LocalPlayer.UserId
 
 -- Check if the user is banned
 if isUserBanned(userId) then
-    game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal from discord copied to your clipboard") 
+    game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal From Discord Copied To Clipboard Paste In Browser") 
     print("You are banned from using this script.")
 setclipboard("https://discord.com/invite/Q2c388fGAq") 
 wait(1)
