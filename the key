@@ -38,7 +38,7 @@ then _G.KeyCheck = true
 
 
 else
-if _G.PasswordTextBox == "suckmycock" then
+if _G.PasswordTextBox == "csx" then
 _G.KeyCheck = true
 
 else
