@@ -1,1 +1,20 @@
 
+local bannedUsers = {
+    12345678, -- 
+    87654321, -- 
+    11223344, --
+    
+}
+
+-- Function to check if a user is banned
+local function isUserBanned(userId)
+    return table.find(bannedUsers, userId) ~= nil
+end
+
+
+local userId = game:GetService("Players").LocalPlayer.UserId
+
+if isUserBanned(userId) then
+ game.Players.LocalPlayer:Kick("You were banned from Cylindrical Appeal from discord copied to your clipboard") 
+    print("You are banned from using this script.")
+end
