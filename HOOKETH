@@ -1,7 +1,7 @@
 print("Script Loaded: Version 1.1")
 
 local bannedUsers = {
-    343052486, -- Example User ID
+    1981272536, -- Example User ID
 }
 
 -- Function to check if a user is banned
