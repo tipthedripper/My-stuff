@@ -26,7 +26,7 @@ if isUserBanned(userId) then
 setclipboard("https://discord.com/invite/Q2c388fGAq") 
 wait(1)
 while true do
-    wait(0) 
+   
 end
 else
 
