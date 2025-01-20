@@ -8,17 +8,11 @@ local bannedUsers = {
 
 }
 
-
 local function isUserBanned(userId)
     return table.find(bannedUsers, userId) ~= nil
 end
 
-
 local userId = game:GetService("Players").LocalPlayer.UserId
-
-
-
-
 
 if isUserBanned(userId) then
     game:GetService("Players").LocalPlayer:Kick("You were banned from Cylindrical Appeal From Discord Copied To Clipboard Paste In Browser") 
@@ -29,20 +23,15 @@ while true do
    
 end
 else
-
 end
-
 
 if _G.PasswordTextBox == "revisback" 
 then _G.KeyCheck = true
 
-
 else
 if _G.PasswordTextBox == "csx" then
 _G.KeyCheck = true
-
 else
-
 _G.KeyCheck = false
 end
 end
